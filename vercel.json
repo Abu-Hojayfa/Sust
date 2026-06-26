@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/health", "destination": "/api/index.js" },
+    { "source": "/analyze-ticket", "destination": "/api/index.js" },
+    { "source": "/(.*)", "destination": "/api/index.js" }
+  ]
+}
